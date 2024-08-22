@@ -12,4 +12,8 @@ tumour diagnostic and prognostic purposes.
 
 ● Dataset
 
-Dataset contains a total of 27 images and a total of 1973 annotattions. There are 12 classes which corresponds to the AgNORs count.
+Dataset contains a total of 27 images and a total of 1973 annotattions. There are 12 classes which corresponds to the AgNORs count (from 0 to 11).
+
+● Hardware
+
+Both models were trained on a GTX 1650 4GB (laptop) GPU, Which was sufficient for the task. However, the accuracy of the classification net can be improved with higher number of epochs. On the other hand, it takes a long period of time with the given GPU
